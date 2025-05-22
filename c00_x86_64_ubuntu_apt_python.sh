@@ -1,11 +1,4 @@
-# x86_64 on Anderson Microsoft Azure Resources
 
-# Ubuntu 22.04.5
-# pip version==25.1.1
-# SNIPAR 0.0.22 (also corresponding simulation exercise on snipar.readthedocs.io)
-# Python 3.9 # installed from Ubuntu repos (apt)
-# venv created with python3.9
-# PLINK v1.9.0-b.7.7 64-bit (22 Oct 2024)
 
 #######
 

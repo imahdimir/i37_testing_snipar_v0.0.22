@@ -48,3 +48,8 @@ pip --version
 #> pip 25.1.1
 
 pip install snipar
+# successfully installed snipar-0.0.22
+
+python -m unittest snipar.tests
+#> Ran 23 tests in 202.841s
+#> OK

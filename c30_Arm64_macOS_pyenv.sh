@@ -16,7 +16,13 @@ pip --version
 #> pip 25.1.1
 
 # I could not install snipar using pyenv env and pip
+#       ERROR: Failed to build installable wheels for some pyproject.toml based projects (numpy)
+#       [end of output]
+  
+#   note: This error originates from a subprocess, and is likely not a problem with pip.
+# error: subprocess-exited-with-error
 
-
-
-
+# × pip subprocess to install build dependencies did not run successfully.
+# │ exit code: 1
+# ╰─> See above for output.
+pip install numpy --no-build-isolation
