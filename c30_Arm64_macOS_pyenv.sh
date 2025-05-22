@@ -1,10 +1,6 @@
-# x86_64 on Anderson Microsoft Azure Resources
-
-# Ubuntu 22.04.5
-# SNIPAR 0.0.22 (also corresponding simulation exercise on snipar.readthedocs.io)
-# Python 3.9 installed by pyenv==2.5.7
+# snipar==0.0.22
+# Python 3.9 installed by pyenv
 # venv created with pyenv with python3.9
-# PLINK v1.9.0-b.7.7 64-bit (22 Oct 2024)
 
 #######
 
@@ -15,6 +11,7 @@ pip install --upgrade pip
 pip --version
 #> pip 25.1.1
 
+pip install snipar
 # I could not install snipar using pyenv env and pip
 #       ERROR: Failed to build installable wheels for some pyproject.toml based projects (numpy)
 #       [end of output]
